@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.fixedBanner {
+  margin: 0;
+  padding: 0;
+}
+
+.fixedBanner {
+  width: 100%;
+  height: auto;
+  background-color: lightblue;
+}
+
+.fixedBanner p {
+  padding: 10px;
+}
+
+.fixedBanner .clear {
+  clear: both;
+}
+
+#expandedContent {
+  display: none;
+}
