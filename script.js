@@ -102,7 +102,7 @@ function debounce(func) {
   };
 }
 
-var beginSetFixedBanner = debounce(setFixedBanner, 500);
+var beginSetFixedBanner = debounce(setFixedBanner, 100);
 
 addEventListenerResize();
 addEventListenerScroll();
